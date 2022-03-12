@@ -2,7 +2,7 @@
 
 /**
  * main - prints base 10 number
- * from 0 to 
+ * from 0 to
  * Return: Aways 0 (Sucess)
  */
 int main(void)
