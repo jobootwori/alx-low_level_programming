@@ -7,11 +7,11 @@
  */
 int main(void)
 {
-	int x = -1;
+	int x = o;
 
 	while (x <= 9)
 	{
-		putchar(x);
+		printf("%d", x);
 		x++;
 	}
 	putchar('\n');
