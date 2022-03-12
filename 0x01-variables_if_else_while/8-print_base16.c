@@ -7,9 +7,15 @@
  */
 int main(void)
 {
+	int i;
 	int x;
 
-	for (x = 65; x <= 70; x++)
+	for (i = 48; i < 58; i++)
+	{
+		putchar(i);
+	}
+
+	for (x = 97; x <= 102; x++)
 	{
 	/*	int lower_x = tolower(x);*/
 		putchar(x);
