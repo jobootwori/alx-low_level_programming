@@ -8,7 +8,7 @@ int main(void)
 {
 	int s, b;
 
-	for (s = 48; s <= 57; s++ )
+	for (s = 48; s <= 57; s++)
 	{
 		for (b = 48; b <= 57; b++)
 		{
@@ -16,12 +16,13 @@ int main(void)
 			{
 				putchar(s);
 				putchar(b);
-				if (b != 57 && s != 56)
+				if (b == 57 && s == 56)
 				{
-					putchar(',');
-					putchar(' ');
+					break;
 				}
 			}
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
