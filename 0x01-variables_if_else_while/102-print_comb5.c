@@ -10,7 +10,7 @@ int main(void)
 	
 	for (a = 48; a < 58; a++)
 	{
-		puchar(a);
+		putchar(a);
 		for (b = 48; b <= 57; b++)
 		{
 			putchar(b);
@@ -20,7 +20,7 @@ int main(void)
 				putchar(c);
 				for (d = 48; d < 58; d++)
 				{
-					putchar(d)
+					putchar(d);
 					if (a > b && c == d)
 					{
 						break;
