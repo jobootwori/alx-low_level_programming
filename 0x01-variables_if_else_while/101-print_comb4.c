@@ -14,11 +14,11 @@ int main(void)
 		{
 			for (t = 48; t <=57; t++) 
 			{
-				if (b > t && s > b)
+				if (b > t && t > s)
 				{
+					putchar(s);
 					putchar(t);
 					putchar(b);
-					putchar(s);
 
 					if (t == 55 && b == 57 && s == 56)
 					{
