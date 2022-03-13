@@ -17,8 +17,8 @@ int main(void)
 				if (b > t && t > s)
 				{
 					putchar(s);
-					putchar(t);
 					putchar(b);
+					putchar(t);
 
 					if (t == 55 && b == 57 && s == 56)
 					{
