@@ -12,20 +12,19 @@ int main(void)
 	{
 		for (b = 48; b <= 57; b++)
 		{
-			for (t = 48; t <=57; t++) 
+			for (t = 48; t <= 57; t++)
 			{
 				if (t > b && b > s)
 				{
 					putchar(s);
 					putchar(b);
 					putchar(t);
-
 					if (t == 55 && b == 57 && s == 56)
 					{
 						break;
 					}
 					putchar(',');
-					putchar(' ');				
+					putchar(' ');
 				}
 			}
 		}
