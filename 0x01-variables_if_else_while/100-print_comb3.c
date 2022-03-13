@@ -16,13 +16,13 @@ int main(void)
 			{
 				putchar(s);
 				putchar(b);
-				putchar(',');
-				putchar(' ');
 				
 				if (b == 57 && s == 56)
 				{
 					break;
 				}
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
