@@ -20,12 +20,12 @@ int main(void)
 					putchar(b);
 					putchar(s);
 
-						if (t == 55 && b == 57 && s == 56)
-						{
-							break;
-						}
-						putchar(',');
-						putchar(' ');				
+					if (t == 55 && b == 57 && s == 56)
+					{
+						break;
+					}
+					putchar(',');
+					putchar(' ');				
 				}
 			}
 		}
