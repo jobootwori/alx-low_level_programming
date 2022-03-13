@@ -18,7 +18,7 @@ int main(void)
 				{
 					putchar(t);
 					putchar(s);
-					putchar(b)
+					putchar(b);
 
 						if (t == 55 && b == 57 && s == 56)
 						{
