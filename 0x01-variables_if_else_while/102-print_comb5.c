@@ -17,17 +17,18 @@ int main(void)
 				for (d = 48; d < 58; d++)
 				{
 					while ((a + b) != (c + d))
-					putchar(a);
-					putchar(b);
-					putchar(' ');
-					putchar(c);		
-					putchar(d);
-					if (((a > b) && (c == d)))
 					{
-					break;
-					}
-					putchar(',');
-					putchar(' ');
+						putchar(a);
+						putchar(b);
+						putchar(' ');
+						putchar(c);		
+						putchar(d);
+						if (((a > b) && (c == d)))
+						{
+							break;
+						}
+						putchar(',');
+						putchar(' ');
 				}
 			}
 		}
