@@ -16,11 +16,11 @@ int main(void)
 			{
 				for (d = 48; d < 58; d++)
 				{
-					putchar(a);
-					putchar(b);
+					putchar(a / 10 + 48);
+					putchar(b / 10 + 48);
 					putchar(' ');
-					putchar(c);		
-					putchar(d);
+					putchar(c / 10 + 48);		
+					putchar(d / 10 + 49);
 					if (a > b && c == d)
 					{
 						break;
