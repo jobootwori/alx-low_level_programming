@@ -21,7 +21,11 @@ int main(void)
 					putchar(' ');
 					putchar(c);		
 					putchar(d);
-					if (((a > b) && (c == d)) || ((a + b) == (c + d)))
+					if (((a > b) && (c == d)))
+						if((a +  b) == (c + d))
+						{
+							break;
+						}
 					{
 						break;
 					}
