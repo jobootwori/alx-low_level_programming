@@ -6,7 +6,8 @@
  */
 int main(void)
 {
-	int a, b, c, d;
+	int a, b, c, d = 48;
+	
 	while ((a + b) != (c + d))
 	{
 		for (a = 48; a < 58; a++)
