@@ -22,12 +22,12 @@ int main(void)
 					putchar(c);		
 					putchar(d);
 					if (((a > b) && (c == d)))
-						if((a +  b) == (c + d))
-						{
-						break;
-						}
-						putchar(',');
-						putchar(' ');
+					if((a +  b) == (c + d))
+					{
+					break;
+					}
+					putchar(',');
+					putchar(' ');
 				}
 			}
 		}
