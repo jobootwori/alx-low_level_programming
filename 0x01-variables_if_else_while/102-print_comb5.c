@@ -17,10 +17,10 @@ int main(void)
 				for (d = 48; d < 58; d++)
 				{
 					putchar(a / 10 + 48);
-					putchar(b % 10 + 48);
+					putchar(a % 10 + 48);
 					putchar(' ');
-					putchar(c / 10 + 48);		
-					putchar(d % 10 + 49);
+					putchar(b / 10 + 48);		
+					putchar(b % 10 + 48);
 					if (a > b && c == d)
 					{
 						break;
