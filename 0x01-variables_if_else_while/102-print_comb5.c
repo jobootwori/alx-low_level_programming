@@ -23,11 +23,11 @@ int main(void)
 					putchar(d);
 					if (((a > b) && (c == d)))
 						if((a +  b) == (c + d))
-					{
+						{
 						break;
-					}
-					putchar(',');
-					putchar(' ');
+						}
+						putchar(',');
+						putchar(' ');
 				}
 			}
 		}
