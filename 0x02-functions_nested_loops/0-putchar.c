@@ -1,29 +1,23 @@
-#include <unistd.h>
+#include "main.h"
 /*
  * main - Prints _putchar
  * putchar - Prints characters
+ * Return: always 0 (success)
  */
 
-int _putchar(char c)
-{
-/*
- * Prints Characters
- */
-	return (write(1, &c, 1));
-}
 int main(void)
 {
-/*
- * calls putchar to print characters
- */
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	/*
+	 * Prints _putchar
+	 */
+	int str[] = {95, 112, 117, 116, 99, 104, 97, 114};
+	int count, size;
+
+	size = sizeof(str) / sizeof(int);
+	for (count = 0; count < size; count++)
+	{
+		_putchar(str[count]);
+	}
 	_putchar('\n');
 	return (0);
 }
