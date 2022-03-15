@@ -4,6 +4,12 @@
  * _abs - a function that computes the absolute 
  * value of an integer.
  *
+ * @n - an input from user
+ *
+ * @b - calculates the negative value
+ *
+ * Return: returns the abs. value
+ *
  */
 int _abs(int n)
 {
