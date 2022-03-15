@@ -6,8 +6,6 @@
  *
  * @n:  an input from user
  *
- * @b: calculates the negative value
- *
  * Return: returns the abs. value
  *
  */
