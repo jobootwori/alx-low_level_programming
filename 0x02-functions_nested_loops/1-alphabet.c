@@ -15,6 +15,6 @@ void print_alphabet(void)
 		if (a == 123)
 			break;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return;
 }
