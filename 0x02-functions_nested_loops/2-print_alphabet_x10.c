@@ -5,25 +5,18 @@
   */
 void print_alphabet_x10(void)
 {
-	int a = 97;
+	int count = 97;
 
-	while (a < 123)
+	while (count < 10)
 	{
 		int a = 97;
 		while (a < 123)
 		{
-			int a = 97;
-			while (a < 123)
-			{
-
-
-
-				_putchar(a);
-				a++;
-				if (a == 123)
-					break;
-
-			}
+			_putchar(a);
+			a++;
+			if (a == 123)
+			break;
+			_putchar('\n');
 		}	
 	}
 }
