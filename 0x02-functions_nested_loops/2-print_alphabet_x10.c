@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * 2-print_alphabet_x10 - prints the letters a -z
+ * print_alphabet_x10 - prints the letters a -z
   */
 void print_alphabet_x10(void)
 {
@@ -10,6 +10,7 @@ void print_alphabet_x10(void)
 	while (count < 10)
 	{
 		int a = 97;
+
 		while (a < 123)
 		{
 			_putchar(a);
@@ -18,6 +19,6 @@ void print_alphabet_x10(void)
 				break;
 		}
 		_putchar('\n');
-		count++;	
+		count++;
 	}
 }
