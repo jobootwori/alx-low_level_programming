@@ -1,5 +1,6 @@
 #include "main.h"
 #include "_putchar.c"
+void print_alphabet(void);
 /*
  * main - main entry
  * return: always 0
@@ -17,7 +18,7 @@ void print_alphabet(void)
 	}
 	return;
 }
-int main()
+int main(void)
 {
 	print_alphabet();
 	_putchar('\n');
