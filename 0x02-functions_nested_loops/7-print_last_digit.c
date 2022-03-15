@@ -1,8 +1,7 @@
 #include "main.h"
 
 /*
- * print_last_digit - a function that computes the absolute
- * value of an integer.
+ * print_last_digit - a function that computes the absolute int
  *
  * @n:  an input from user
  *
