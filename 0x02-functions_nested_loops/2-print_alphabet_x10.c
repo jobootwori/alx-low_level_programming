@@ -10,7 +10,7 @@ void print_alphabet(void)
 	while (a < 123)
 	{
 		int a = 97;
-		while (a <123
+		while (a < 123)
 		{
 			int a = 97;
 			while (a < 123)
@@ -18,10 +18,10 @@ void print_alphabet(void)
 
 
 
-			_putchar(a);
-			a++;
-			if (a == 123)
-
+				_putchar(a);
+				a++;
+				if (a == 123)
+					break;
 
 			}
 		}	
