@@ -1,10 +1,8 @@
 #include "main.h"
 
-/*
+/**
  * print_alphabet - prints the letters a -z
- *
- * return: always 0
- */
+  */
 void print_alphabet(void)
 {
 	int a = 97;
