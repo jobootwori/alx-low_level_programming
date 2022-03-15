@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _abs - a function that computes the absolute 
+ * _abs - a function that computes the absolute
  * value of an integer.
  *
- * @n - an input from user
+ * @n:  an input from user
  *
- * @b - calculates the negative value
+ * @b: calculates the negative value
  *
  * Return: returns the abs. value
  *
@@ -20,6 +20,7 @@ int _abs(int n)
 	else
 	{
 		int b = n * (-1);
+
 		return (b);
 	}
 	_putchar('\n');
