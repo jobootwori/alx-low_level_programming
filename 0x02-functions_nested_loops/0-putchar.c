@@ -4,13 +4,12 @@
  * putchar - Prints characters
  */
 
-void _putchar(char c)
+int _putchar(char c)
 {
 /*
  * Prints Characters
  */
-	(void) write(1, &c, 1);
-	return;
+	return (write(1, &c, 1));
 }
 int main(void)
 {
