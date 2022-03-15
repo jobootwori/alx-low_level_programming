@@ -15,8 +15,9 @@ void print_alphabet_x10(void)
 			_putchar(a);
 			a++;
 			if (a == 123)
-			break;
-			_putchar('\n');
-		}count++;	
+				break;
+		}
+		_putchar('\n');
+		count++;	
 	}
 }
