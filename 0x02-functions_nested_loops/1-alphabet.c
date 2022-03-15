@@ -1,6 +1,5 @@
 #include "main.h"
-#include "_putchar.c"
-void print_alphabet(void);
+
 /*
  * main - main entry
  * return: always 0
@@ -16,11 +15,6 @@ void print_alphabet(void)
 		if (a == 123)
 			break;
 	}
+	putchar('\n');
 	return;
-}
-int main(void)
-{
-	print_alphabet();
-	_putchar('\n');
-	return (0);
 }
