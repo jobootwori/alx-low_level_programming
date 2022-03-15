@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_alphabet - prints the letters a -z
+ * 2-print_alphabet_x10 - prints the letters a -z
   */
 void print_alphabet_x10(void)
 {
-	int count = 97;
+	int count = 0;
 
 	while (count < 10)
 	{
@@ -17,6 +17,6 @@ void print_alphabet_x10(void)
 			if (a == 123)
 			break;
 			_putchar('\n');
-		}	
+		}count++;	
 	}
 }
