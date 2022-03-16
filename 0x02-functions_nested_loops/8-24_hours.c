@@ -26,21 +26,20 @@ void jack_bauer(void)
 
 				while (minute2 <= 57)
 				{
-					/*_putchar(hour);
-					*_putchar(hour2);
-					*_putchar(58);
-					*/
+					_putchar(hour);
+					_putchar(hour2);
+					_putchar(58);
 					_putchar(minute);
 					_putchar(minute2);
 					_putchar('\n');
-					minute2++;
-					if (minute2 == 57)
+					minute2++; 
+					minute++;
+					if (minute2 == 57 && minute == 53)
 					{
 						break;
 					}
 				}
-			}minute++;		
-		}hour2++;
-	}hour++;
-	_putchar('\n');
+			}		
+		}
+	}_putchar('\n');
 }
