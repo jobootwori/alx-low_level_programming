@@ -22,23 +22,24 @@ void jack_bauer(void)
 			
 			while (minute <= 53)
 			{
-				int minute2 = 48;
+				_putchar(minute);
+				minute++;
+				if (minute == 53)
+				{
+					break;
+				}
 
+				int minute2 = 48;
+				
 				while (minute2 <= 57)
 				{
-					_putchar(hour);
-					_putchar(hour2);
-					_putchar(58);
-					_putchar(minute);
 					_putchar(minute2);
-					_putchar('\n');
 					minute2++; 
-					minute++;
-					if (minute2 == 57 && minute == 53)
+					if (minute2 == 57)
 					{
 						break;
 					}
-				}
+				}_putchar('\n');
 			}		
 		}
 	}_putchar('\n');
