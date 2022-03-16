@@ -12,8 +12,10 @@ void times_table(void)
 	{
 		_putchar(n);
 		if (n != 57)
+		{
 			_putchar(44);
 			_putchar(' ');
 			_putchar(' ');
+		}
 	}
 }
