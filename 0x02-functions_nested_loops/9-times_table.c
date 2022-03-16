@@ -15,6 +15,7 @@ void times_table(void)
 			result = (n * k);
 			if (result <= 9)
 			{
+				_putchar(' ');
 				_putchar(result + '0');
 			}
 			else
@@ -22,12 +23,7 @@ void times_table(void)
 				_putchar((result / 10) + '0');
 				_putchar((result % 10) + '0');
 			}
-			if (k != 9)
-			{
-				_putchar(44);
-				_putchar(' ');
-				_putchar(' ');
-			}
+			
 		}_putchar('\n');
 	}	
 }
