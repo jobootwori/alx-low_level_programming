@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * jack_bauer - Prints every minute for 24 hours
  *
  * @n:  an input from user
