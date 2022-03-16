@@ -15,7 +15,6 @@ void times_table(void)
 			result = (n * k);
 			if (result <= 9)
 			{
-				_putchar(' ');
 				_putchar(result + 48);
 			}
 			if (k != 9)
