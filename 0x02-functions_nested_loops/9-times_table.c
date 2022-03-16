@@ -11,11 +11,13 @@ void times_table(void)
 	for (n = 48; n <= 57; n++)
 	{
 		_putchar(n);
+		int k = (n + 50);
+		_putchar(k);
 		if (n != 57)
 		{
 			_putchar(44);
 			_putchar(' ');
 			_putchar(' ');
 		}
-	}
+	}	
 }
