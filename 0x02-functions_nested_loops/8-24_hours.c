@@ -26,6 +26,9 @@ void jack_bauer(void)
 				
 				while (minute2 <= 57)
 				{
+					_putchar(hour);
+					_putchar(hour2);
+					_putchar(58);
 					_putchar(minute);
 					_putchar(minute2);
 					_putchar('\n');
@@ -35,7 +38,7 @@ void jack_bauer(void)
 						break;
 					}
 				}minute++;
-			}		
-		}
+			}hour2++;
+		}hour++;
 	}_putchar('\n');
 }
