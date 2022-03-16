@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * times_table - Prints 9 times timetable
  *
  */
@@ -14,7 +14,10 @@ void times_table(void)
 		for(k = 1; k <= 9; k++)
 		{
 			result = (n * k);
+			if (k == 0)
+			{
 			_putchar(result + 48);
+			}
 			if (k != 9)
 			{
 				_putchar(44);
