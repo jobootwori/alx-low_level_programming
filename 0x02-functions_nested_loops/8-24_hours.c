@@ -26,13 +26,15 @@ void jack_bauer(void)
 				
 				while (minute2 <= 57)
 				{
+					_putchar(minute);
 					_putchar(minute2);
-					minute2++; 
+					_putchar('\n');
+					 
 					if (minute2 == 57)
 					{
 						break;
 					}
-				}_putchar('\n');
+				}
 				minute++;
 				if (minute == 53)
 					break;
