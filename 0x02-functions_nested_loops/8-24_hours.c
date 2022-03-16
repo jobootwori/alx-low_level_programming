@@ -20,6 +20,8 @@ void jack_bauer(void)
 			{
 				for (minute2 = 48; minute2 <= 57; minute2++)
 				{
+					if (hour > 50 && hour2 > 52 && minute > 53)
+						break;
 					_putchar(hour);
 					_putchar(hour2);
 					_putchar(58);
