@@ -18,7 +18,7 @@ void times_table(void)
 			_putchar(' ');
 			_putchar(' ');
 		}
-		for(k = '0'; k <= '9'; k + '2')
+		for(k = '0'; k <= '9'; (k + 2))
 		{
 			_putchar(k);
 			if (k != '9')
