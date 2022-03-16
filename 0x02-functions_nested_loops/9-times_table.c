@@ -6,12 +6,12 @@
  */
 void times_table(void)
 {
-	int n;
+	int n, k;
 
 	for (n = 48; n <= 57; n++)
 	{
 		_putchar(n);
-		int k = (n + 50);
+		k = (n + 50);
 		_putchar(k);
 		if (n != 57)
 		{
