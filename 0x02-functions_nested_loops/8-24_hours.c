@@ -33,7 +33,9 @@ void jack_bauer(void)
 					_putchar(minute2);
 					_putchar('\n');
 					if (minute2 == 57 && minute == 53 && hour2 == 51 && hour == 50)
+					{
 						break;
+					}
 				}
 			}minute++;		
 		}hour2++;
