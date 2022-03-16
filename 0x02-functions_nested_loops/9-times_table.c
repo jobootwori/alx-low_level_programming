@@ -10,9 +10,10 @@ void times_table(void)
 
 	for (n = 48; n <= 57; n++)
 	{
-		if (n == 57)
+		if (n == 58)
 			break;
 		_putchar(n);
+		_putchar(44);
 		_putchar(' ');
 	}
 }
