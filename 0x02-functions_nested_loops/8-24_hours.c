@@ -36,8 +36,5 @@ void jack_bauer(void)
 				}minute++;
 			}hour2++;
 		}hour++;
-	if (hour > 50)
-		break;
-	_putchar('\n');
 	}
 }
