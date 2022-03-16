@@ -13,11 +13,11 @@ void times_table(void)
 		for(k = 0; k <= 9; k++)
 		{
 			result = (n * k);
-			if (result <= 9)
+			if ((result <= 9)
 			{
 				_putchar(result + 48);
 			}
-			else
+			else if(result > 9)
 			{
 				_putchar(result + 48);
 			}
