@@ -5,6 +5,8 @@
  * 0 if it is not
  *
  * @c: input from the user
+ *
+ * Return: returns 1 or 0
  */
 int _isupper(int c)
 {
