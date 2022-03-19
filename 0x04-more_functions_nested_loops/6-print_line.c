@@ -7,10 +7,10 @@
  */
 void print_line(int n)
 {
-	for ( ; n > 48; n--)
+	int k;
+
+	for (k = 0; k < n; k++)
 	{
-		if (n <= 48)
-			_putchar('\n');
 		_putchar(95);
 	}
 	_putchar('\n');
