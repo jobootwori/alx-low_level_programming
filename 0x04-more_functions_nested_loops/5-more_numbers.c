@@ -6,13 +6,13 @@
  */
 void more_numbers(void)
 {
-	int c;
+	int c, n;
 
 	for (c = 1; c <= 10; c++)
 	{
 		for (n =0; n <= 14; n++)
 		{
-			_puchar(n);
+			_putchar(n);
 		}
 	}
 	_putchar('\n');
