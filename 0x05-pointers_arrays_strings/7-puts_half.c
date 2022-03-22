@@ -16,8 +16,15 @@ void puts_half(char *str)
 	{
 		array_len++;
 	}
-	half_string = (array_len / 2);
-	for (i = half_string; i < array_len - 1; i++)
+	if (array_len % 2 == 0)
+	{
+		half_string = array_len / 2;
+	} else
+	{
+		half_string = array_len - 1 / 2;
+	}
+
+	for (i = half_string; i < array_len; i++)
 	{
 		_putchar(str[i]);
 	}
