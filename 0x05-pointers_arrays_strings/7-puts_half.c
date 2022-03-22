@@ -18,7 +18,7 @@ void puts_half(char *str)
 	}
 	if (array_len % 2 == 0)
 	{
-		half_string = array_len / 2;
+		half_string = array_len + 1 / 2;
 	} else
 	{
 		half_string = array_len - 1 / 2;
