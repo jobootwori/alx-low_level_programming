@@ -7,7 +7,7 @@
  *
  *Return: Returns answer
  */
-char *string_toupper(char *s)
+char *string_toupper(char *)
 {
 	int i = 0;
 	
