@@ -3,7 +3,7 @@
 /**
  * print_square- prints a diagonal line on the terminal
  *
- *@n: Input
+ *@size: Input
  */
 void print_square(int size)
 {
@@ -18,7 +18,7 @@ void print_square(int size)
 		{
 			for (j = 0; j < n; j++)
 			{
-				_putchar(35);
+				_putchar('#');
 			}
 		}
 	}
