@@ -13,9 +13,9 @@ char *string_toupper(char *s)
 	
 	while(s[i] != '\0')
 	{
-		if ((s[i] >= 'a') && (s[i] <= 'z'))
+		if ((s[i] >= 97) && (s[i] <= 122))
 		{
-			s[i] = s[i] + 32;
+			s[i] = (s[i] + 32);
 		}	
 	}
 	_puchar('\n');
