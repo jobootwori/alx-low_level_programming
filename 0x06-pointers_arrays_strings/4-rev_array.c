@@ -21,9 +21,5 @@ void reverse_array(int *a, int n);
 		start++;
 		end--;
 	}
-	for (k = 0; k < n; k++)
-	{
-		return (*a[k]);
-	}
 	_putchar('\n');
 }
