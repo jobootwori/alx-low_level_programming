@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_diagonal - prints a diagonal line on the terminal
+ * print_square- prints a diagonal line on the terminal
  *
  *@n: Input
  */
-void print_diagonal(int n)
+void print_square(int size)
 {
 	if (n <= 0)
 	{
