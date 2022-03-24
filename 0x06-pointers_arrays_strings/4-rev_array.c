@@ -7,9 +7,9 @@
  *@n: INput
  *Return: Returns value
  */
-void reverse_array(int *a, int n);
+void reverse_array(int *a, int n)
 {
-	int k, temp, start, end;
+	int temp, start, end;
 	start = 0;
 	end = (n - 1);
 
