@@ -15,15 +15,15 @@ void reverse_array(int *a, int n);
 
 	while (start < end)
 	{
-		temp = a[start];
-		a[start] = a[end];
-		a[end]  = temp;
+		temp = *a[start];
+		*a[start] = *a[end];
+		*a[end]  = temp;
 		start++;
 		end--;
 	}
 	for (k = 0; k < n; k++)
 	{
-		return (a[k]);
+		return (*a[k]);
 	}
 	_putchar('\n');
 }
