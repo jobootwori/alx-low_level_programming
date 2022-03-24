@@ -9,19 +9,15 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-	int k;
+	int i = 0, comp = 0;
 
-	for (k = 0; (s1[k] == s2[k]) && (s1[k] == '\0'); k++)
+	while (comp == 0)
+	{
+		if ((*(s1 + i) == '\0') && (*(s2 + i) == '\0'))
+			break;
+		comp = *(s1 + i) - *(s2 + i);
+		i++;
+	}
 
-		if(s1[k] < s2[k])
-		{
-			return (45 + '15');
-		} else if(s1[k] > s2[k])
-		{
-			return (15);
-		} else
-		{
-			return (0);
-		}
-		_putchar('\n');
+	return (comp);
 }
