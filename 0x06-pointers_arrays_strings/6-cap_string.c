@@ -7,7 +7,7 @@
  *
  * Return: Returns answer
  */
-char *cap_string(char *str)
+char *cap_string(char *s)
 {
 	int count, i;
 	
