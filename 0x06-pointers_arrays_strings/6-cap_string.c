@@ -3,7 +3,7 @@
 /**
  * cap_string - reverses a string
  *
- * @s: Input
+ * @str: Input
  *
  * Return: Returns answer
  */
@@ -16,7 +16,7 @@ char *cap_string(char *str)
 		 */
 		if (i == 0)
 		{
-			if ((str[i] >= 'a' && str[i] <= 'z'))
+			if ((str[i] >= 'a') && (str[i] <= 'z'))
 				str[i] = str[i] - 32; /* subtract 32 to make it capital */
 			continue; /* continue to the loop */
 		}
@@ -25,7 +25,7 @@ char *cap_string(char *str)
 			/* if space is found, check next character */
 			++i;
 			/* check next character is lowercase alphabet */
-			if (str[i] >= 'a' && str[i] <= 'z')
+			if ((str[i] >= 'a') && (str[i] <= 'z'))
 			{
 				str[i] = str[i] - 32; /* subtract 32 to make it capital */
 				continue; /* continue to the loop */
@@ -34,8 +34,8 @@ char *cap_string(char *str)
 		else
 		{
 			/* all other uppercase characters should be in lowercase */
-			if (str[i] >= 'A' && str[i] <= 'Z')
-				str[i] = str[i] + 32; //subtract 32 to make it small/lowercase
+			if ((str[i] >= 'A') && (str[i] <= 'Z'))
+				str[i] = str[i] + 32; /* subtract 32 to make it small/lowercase */
 		}
 	}
 	
