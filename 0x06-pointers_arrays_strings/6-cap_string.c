@@ -9,34 +9,27 @@
  */
 char *cap_string(char *str)
 {
-	for (i = 0; (*(str + i)) != '\0'; i++)
+	int i, j;
+
+	char spe[13] = {' ', '\t', '\n', ',', ';', '.',
+		'!', '?', '"', '(', ')', '{', '}'};
+
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		/**
-		 * check first character is lowercase alphabet
-		 */
-		if (i == 0)
+		if (i == 0 && s[i] >= 'a' && s[i] <= 'z')
+			s[i] -= 32;
+
+		for (j = 0; j < 13; j++)
 		{
-			if ((*(str + i) >= 'a') && (*(str + i) <= 'z'))
-				*(str + i) = *(str + i) - 32; /* subtract 32 to make it capital */
-			continue; /* continue to the loop */
-		}
-		if (*(str + i) == ' ')/* check space */
-		{
-			/* if space is found, check next character */
-			++i;
-			/* check next character is lowercase alphabet */
-			if ((*(str + i) >= 'a') && (*(str + i) <= 'z'))
+			if (s[i] == spe[j])
 			{
-				*(str + i) = *(str + i) - 32; /* subtract 32 to make it capital */
-				continue; /* continue to the loop */
+				if (s[i + 1] >= 'a' && s[i + 1] <= 'z')
+				{
+					s[i + 1] -= 32;
+				}
 			}
 		}
-		else
-		{
-			/* all other uppercase characters should be in lowercase */
-			if ((*(str + i) >= 'A') && (*(str + i) <= 'Z'))
-				*(str + i) = *(str + i) + 32; /* subtract 32 to make it small/lowercase */
-		}
 	}
-	
+
+	return (s);	
 }
