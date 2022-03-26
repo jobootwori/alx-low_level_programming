@@ -22,6 +22,12 @@ char *_strncat(char *dest, char *src, int n)
 		while (i < n)
 		{
 			*(dest + k) = *(src + i);
+			if(*(src + i) == '\0')
+			{
+				break;
+			}
+			k++;
+			i++;
 		}
 	}
 	return(dest);
