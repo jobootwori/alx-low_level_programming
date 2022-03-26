@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * *_strcat - appends a string to another
+ * _strcat - appends a string to another
  *
  *@dest: Input
  *@src: INput
+ * Return: Returns value
  */
 char *_strcat(char *dest, char *src)
 {
@@ -12,14 +13,15 @@ char *_strcat(char *dest, char *src)
 
 	k, i = 0;
 
-	while (dest[k] != '\0')
-		k++;	
-	while (src[i] != '\0')
+	while (*(dest + k) != '\0')
+		k++;
+	while (k >= 0)
 	{
-		dest[k] = src[i];
+		*(dest + k) = *(src + i);
+		if(*(src + i) == '\0';
+			break;
 		i++;
 		k++;
 	}
-	dest[i] = '\0';
 	return(dest);
 }
