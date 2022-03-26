@@ -16,7 +16,7 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		;
 	}
-	
+
 	for (i = 0; (*(src + i)) != '\0'; i++, k++)
 	{
 		while (i < n)
