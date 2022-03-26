@@ -30,6 +30,6 @@ char *_strncat(char *dest, char *src, int n)
 			i++;
 		}
 	}
-	return(dest);
+	return (dest);
 	_putchar('\n');
 }
