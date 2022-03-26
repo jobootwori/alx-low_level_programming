@@ -3,9 +3,9 @@
 /**
  * _strncat - concatenates two strings
  *
- *@dest: Input
- *@src: INput
- *@n: input
+ * @dest: Input
+ * @src: INput
+ * @n: input
  * Return: Returna a value
  */
 char *_strncat(char *dest, char *src, int n)
@@ -22,7 +22,7 @@ char *_strncat(char *dest, char *src, int n)
 		while (i < n)
 		{
 			*(dest + k) = *(src + i);
-			if(*(src + i) == '\0')
+			if (*(src + i) == '\0')
 			{
 				break;
 			}
