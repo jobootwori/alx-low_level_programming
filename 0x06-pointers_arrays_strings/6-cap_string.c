@@ -1,23 +1,42 @@
 #include "main.h"
 
 /**
- * ring_toupper- reverses a string
+ * cap_string - reverses a string
  *
- *@s: Input
+ * @s: Input
  *
- *Return: Returns answer
+ * Return: Returns answer
  */
-char *cap_string(char *)
+char *cap_string(char *str)
 {
-	int i=0;
-
-	while(s[i] != '\0')
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		if(s[i] >= 'A' && s[i] <= 'Z')
+		/**
+		 * check first character is lowercase alphabet
+		 */
+		if (i == 0)
 		{
-			s[i] = s[i] + 32;
+			if ((str[i] >= 'a' && str[i] <= 'z'))
+				str[i] = str[i] - 32; /* subtract 32 to make it capital */
+			continue; /* continue to the loop */
 		}
-		++i;
+		if (str[i] == ' ')/* check space */
+		{
+			/* if space is found, check next character */
+			++i;
+			/* check next character is lowercase alphabet */
+			if (str[i] >= 'a' && str[i] <= 'z')
+			{
+				str[i] = str[i] - 32; /* subtract 32 to make it capital */
+				continue; /* continue to the loop */
+			}
+		}
+		else
+		{
+			/* all other uppercase characters should be in lowercase */
+			if (str[i] >= 'A' && str[i] <= 'Z')
+				str[i] = str[i] + 32; //subtract 32 to make it small/lowercase
+		}
 	}
-	return (s);
+	
 }
