@@ -1,7 +1,7 @@
 # 0x06. C - More pointers, arrays and strings
 _Projects done during Full Stack Software Engineering studies at African Leadership University School. The aim of the projects is to learn about pointers and arrays in C language._
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+[![Build Status]()]()
 ```sh
 #Trying Bash duh!
 ```
