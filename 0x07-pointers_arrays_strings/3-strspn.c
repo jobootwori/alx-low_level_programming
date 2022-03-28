@@ -1,22 +1,36 @@
 #include "main.h"
 
 /**
- * _strchr - Locates a character in a string
+ * _strspn- gets the length of a prefix substring
  *
- * @s: destination address
- * @c: source address
+ * @s: The null-terminated string to be scanned
+ * @accept: The null-terminated string containing the characters to match
  *
  * Return: return result
  *
  */
-char *_strchr(char *s, char c)
+unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int i = 0;
+	unsigned int i, j, f, _myFlag;
 
-	for (; *(s + i) != '\0'; i++)
-		if (*(s + i) == c)
-			return (s + i);
-	if (*(s + i) == c)
-		return (s + i);
-	return ('\0');
+	f = 0;
+
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		_myFlag = 0;
+		for (j = 0; accept[j] != '\0'; j++)
+		{
+			if (s[i] == accept[j])
+			{
+				f++;
+				_myFlag = 1;
+			}
+		}
+		if (_myFlag == 0)
+		{
+			return (f);
+		}
+	}
+
+	return (0);
 }
