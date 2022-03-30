@@ -1,12 +1,10 @@
 #include "main.h"
 
 /**
- * _strncpy - copies a string
+ * _puts_recursion - copies a string
  *
- * @dest: Input
- * @src: INput
- * @n: Input
- * Return: returns dest
+ * @s: INput
+ * 
  */
 void _puts_recursion(char *s)
 {
@@ -14,8 +12,7 @@ void _puts_recursion(char *s)
 
 	i = 0;
 
-	if (s[i] != '\0')
-		_putchar(s[i]);
-	i++;
-	_puts_recursion(*(s + i));
+	if (s != '\0')
+		_puts_recursion(s + 1);
+	_putchar('\n');
 }
