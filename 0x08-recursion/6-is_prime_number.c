@@ -21,7 +21,7 @@ int is_prime(unsigned int n, unsigned int c)
 }
 /**
  * is_prime_number - find the natural prime number
- * 
+ *
  * @n: input number to be checked
  *
  *
