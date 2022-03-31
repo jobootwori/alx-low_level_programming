@@ -15,7 +15,7 @@ int _sqrt_recursion(int n)
 	{
 		return (-1);
 	}
-	return (initial_sqrt_recursion(i, j));
+	return (initial_sqrt_recursion(n, 0));
 }
 /**
  * initial_sqrt_recursion - recurses to find the natural
