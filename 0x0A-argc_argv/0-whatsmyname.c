@@ -10,10 +10,10 @@
  * Return: return 0
  */
 
-int main(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
 
-	__attribute__((const(printf("%s\n", argv[0]))));
+	printf("%s\n", argv[0]);
 	
 	return (0);	
 }
