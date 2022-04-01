@@ -24,18 +24,15 @@ int main(int argc, char *argv[])
 		i = 0;
 		while (i <= argc)
 		{
-			if (isdigit(argv[i]))
-			{
-				sum = sum + atoi(argv[i]);
-			}
-			else
+			if (!isdigit(argv[i]))
 			{
 				printf("Error\n");
-				break;
 				return (1);
+				break;
 			}
+			sum += atoi(argv[i]);		
 			i++;
-		}printf("%d\n", sum);
+		} printf("%d\n", sum);
 	}
 	return (0);
 }
