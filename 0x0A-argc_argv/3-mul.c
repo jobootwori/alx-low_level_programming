@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Prints the number of argumnets
@@ -15,8 +16,7 @@ int main(int argc, char *argv[])
 
 	if (argc < 3)
 	{
-		mul = (atoi(argv[1])) * (atoi(argv[2]));
-		printf("%d\n", mul);
+		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
 	}
 	else
 	{
