@@ -19,19 +19,13 @@ int main(int argc, char *argv[])
 	}
 	if (argc > 1)
 	{
-		int i, sum;
-		
-		i = 0;
-		while (i < 3)
+		if (!isdigit(argv[1]) && !isdigit(argv[2]))
 		{
-			if (!isdigit(argv[i]))
-			{
-				printf("Error\n");
-				return (1);
-				break;
-			}
-			sum += atoi(argv[i]);		
-			i++;
+			printf("Error\n");
+			return (1);
+			break;
+		}
+		sum = atoi(argv[1]) + atoi(argv[2]);		
 		} printf("%d\n", sum);
 	}
 	return (0);
