@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 		int i, sum;
 		
 		i = 0;
-		while (i <= argc)
+		while (i < 3)
 		{
 			if (!isdigit(argv[i]))
 			{
