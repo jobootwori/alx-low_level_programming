@@ -6,11 +6,11 @@
  * _strdup - Prints the number of argumnets
  *
  * @str: argument count
- * 
+ *
  *
  * Return: return 0
  */
-char *_strdup(char *str) 
+char *_strdup(char *str)
 {
 	char *dup;
 	unsigned int i, len;
