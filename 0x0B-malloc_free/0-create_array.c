@@ -2,17 +2,17 @@
 #include <stdlib.h>
 
 /**
- * main - Prints the number of argumnets
+ * create_array - Prints the number of argumnets
  *
- * @argc: argument count
- * @argv: argument vector
+ * @size: argument count
+ * @c: argument vector
  *
  * Return: return 0
  */
 char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
-	char * str;
+	char *str;
 
 	str = malloc(sizeof(char) * size);
 	if (str == NULL || size == 0)
@@ -27,5 +27,5 @@ char *create_array(unsigned int size, char c)
 		i++;
 	}
 	return (str);
-	free (str);
+	free(str);
 }
