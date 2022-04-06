@@ -10,7 +10,7 @@
  *
  * Return: return 0
  */
-char char *_strdup(char *str) 
+char *_strdup(char *str) 
 {
 	char *dup;
 	unsigned int i, len;
