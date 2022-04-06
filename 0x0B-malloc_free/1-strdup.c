@@ -12,25 +12,24 @@
  */
 char char *_strdup(char *str) 
 {
-	int org_size;
-	static char *dup;
-	char *dup_offset;
+	char *dup;
+	unsigned int i, len;
 
-    /* Allocate memory for duplicate */
-	org_size = strlen(org);
-	dup = (char *)malloc(sizeof(char)*org_size+1);
-	if( dup == NULL)
-		return( (char *)NULL);
+	i = 0;
+	len = 0;
 
-    /* Copy string */
-	dup_offset = dup;
-	while(*org)
-	{
-		*dup_offset = *org;
-		dup_offset++;
-		org++;
-	}
-	*dup_offset = '\0';
-	
-	return(dup);
-}
+	if (str == NULL)
+		return (NULL);
+
+	while (str[len])
+		len++;
+
+	dup = malloc(sizeof(char) * (len + 1));
+
+	if (dup == NULL)
+		return (NULL);
+
+	while ((dup[i] = str[i]) != '\0')
+		i++;
+
+	return (dup);}
