@@ -10,11 +10,21 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	c = malloc(sizeof(char));
-	if (c == NULL)
+	unsigned int i;
+	char * str;
+
+	str = malloc(sizeof(char) * size);
+	if (str == NULL && size == 0)
 	{
-		return (0);
+		return (NULL);
 	}
 
-	free (c);
+	i = 0;
+	while (i < size)
+	{
+		str[i] = c;
+		i++;
+	}
+	return (str);
+	free (str);
 }
