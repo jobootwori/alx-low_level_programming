@@ -5,7 +5,7 @@
  * malloc_checked - Prints the number of argumnets
  *
  * @b: argument count
- * 
+ *
  * Return: return 0
  */
 void *malloc_checked(unsigned int b)
