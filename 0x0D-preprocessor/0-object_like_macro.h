@@ -1,5 +1,5 @@
-#ifndef _0-object_like_macro_h
-#define _0-object_like_macro_h
+#ifndef _0_object_like_macro_h
+#define _0_object_like_macro_h
 
 /*
  * MACRO
