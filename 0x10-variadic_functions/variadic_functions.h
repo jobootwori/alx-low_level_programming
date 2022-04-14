@@ -1,5 +1,5 @@
-#ifndef _main_h
-#define _main_h
+#ifndef _variadic_functions_h
+#define _variadic_functions_h
 
 /*
  * Function prototypes
