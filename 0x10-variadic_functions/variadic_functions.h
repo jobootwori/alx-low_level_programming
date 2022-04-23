@@ -5,12 +5,6 @@
  * Function prototypes
  */
 
-typedef struct check
-{
-	char *chk;
-	void (*f)(va_list list);
-} check_t;
-
 #include <stdarg.h>
 #include <stdio.h>
 
