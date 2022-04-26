@@ -1,11 +1,12 @@
-#ifndef _VARIADIC_FUNCTIONS_H_
-#define _VARIADIC_FUNCTIONS_H_
+#ifndef _LISTS_H_
+#define _LISTS_H_
 
 /**
  * struct listint_s - singly linked list
+ * 
  * @n: integer
  * @next: points to the next node
- *
+ * @h: integer
  * Description: singly linked list node structure
  *
  */
