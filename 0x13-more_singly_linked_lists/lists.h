@@ -6,7 +6,6 @@
  * 
  * @n: integer
  * @next: points to the next node
- * @h: integer
  * Description: singly linked list node structure
  *
  */
