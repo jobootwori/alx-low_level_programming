@@ -3,8 +3,9 @@
 
 /**
  *  sum_listint - a function that  inserts a new node at a given position.
- *
+ * @idx: the index of the list where the new node should be added.
  * @head: the head node of the list
+ * @n: new value
  *
  * Return: The nth node
  */
