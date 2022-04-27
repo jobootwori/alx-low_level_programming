@@ -2,8 +2,8 @@
 #include <assert.h>
 
 /**
- *  get_nodeint_at_index- a function that  returns the nth node of a linked list
- *  listint_t
+ *  get_nodeint_at_index- a function that  returns the nth node
+ *  of a linked list listint_t
  *  @index: the nth node
  *
  * @head: the head node of the list
