@@ -6,7 +6,7 @@
  * given position.
  * @index: the index of the list where the new node should be added.
  * @head: the head node of the list
- * 
+ *
  *
  * Return:     1 if it succeeded, -1 if it failed
  */
