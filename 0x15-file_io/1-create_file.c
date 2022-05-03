@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- *
  * create_file - creates a file and fills it with text
  *
  * @filename: name of the file to create
